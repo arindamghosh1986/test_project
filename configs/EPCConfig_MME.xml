@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PN_TMMEC_CONFIG>
+  <log>
+    <level>information</level>
+    <repetition>0</repetition>
+    <compression>0</compression>
+    <rotation>0</rotation>
+    <messageCount>0</messageCount>
+    <compressedFileCount>50</compressedFileCount>
+    <maxFileSize>10</maxFileSize>
+    <enableLocalLogging>1</enableLocalLogging>
+    <enableRemoteLogging>0</enableRemoteLogging>
+    <remoteLogServerIP/>
+    <remoteLogServerPort>514</remoteLogServerPort>
+  </log>
+  <plmn>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+  </plmn>
+  <numOfPoolArea>1</numOfPoolArea>
+  <poolArea>
+    <plmn>TestNetwork</plmn>
+    <poolAreaID>32768</poolAreaID>
+    <tacList>1</tacList>
+  </poolArea>
+  <node>
+    <plmn>TestNetwork</plmn>
+    <groupID>
+      <item0>32768</item0>
+    </groupID>
+    <code>
+      <item0>1</item0>
+    </code>
+    <ipaddrS1>
+      <item0>192.168.139.10</item0>
+    </ipaddrS1>
+    <ipaddrS11>192.168.139.10</ipaddrS11>
+    <systemUUId>564dcb37-25b6-ad5c-49ab-125426e15094</systemUUId>
+    <chassisId>EPC 1</chassisId>
+    <name/>
+    <netmaskS1>
+      <item0>24</item0>
+    </netmaskS1>
+    <netmaskv6S1/>
+    <intfS1>
+      <item0>ens33</item0>
+    </intfS1>
+    <ipaddrv6S1/>
+    <netmaskS11>24</netmaskS11>
+    <netmaskv6S11>64</netmaskv6S11>
+    <intfS11>ens33</intfS11>
+    <ipaddrv6S11/>
+    <portS11>2123</portS11>
+    <portS1>36412</portS1>
+    <sctpInStream>32</sctpInStream>
+    <sctpOutStream>32</sctpOutStream>
+    <portSBc>29168</portSBc>
+    <ipaddrS3>192.168.139.10</ipaddrS3>
+    <ipaddrv6S3/>
+    <netmaskS3>24</netmaskS3>
+    <netmaskv6S3>64</netmaskv6S3>
+    <intfS3>ens33</intfS3>
+    <portS3>2123</portS3>
+    <ipaddrS6a>
+      <item0>192.168.139.10</item0>
+    </ipaddrS6a>
+    <ipaddrv6S6a/>
+    <netmaskS6a>
+      <item0>24</item0>
+    </netmaskS6a>
+    <netmaskv6S6a/>
+    <intfS6a>
+      <item0>ens33</item0>
+    </intfS6a>
+    <portS6a>3868</portS6a>
+    <ipaddrSLg>
+      <item0>192.168.139.10</item0>
+    </ipaddrSLg>
+    <ipaddrv6SLg/>
+    <netmaskSLg>
+      <item0>24</item0>
+    </netmaskSLg>
+    <netmaskv6SLg/>
+    <intfSLg>
+      <item0>ens33</item0>
+    </intfSLg>
+    <portSLg>3868</portSLg>
+    <ipaddrS10>192.168.139.10</ipaddrS10>
+    <ipaddrv6S10/>
+    <netmaskS10>24</netmaskS10>
+    <netmaskv6S10>64</netmaskv6S10>
+    <intfS10>ens33</intfS10>
+    <portS10>2123</portS10>
+    <ipaddrS11u>192.168.139.10</ipaddrS11u>
+    <ipaddrv6S11u/>
+    <netmaskS11u>24</netmaskS11u>
+    <netmaskv6S11u>64</netmaskv6S11u>
+    <intfS11u>ens33</intfS11u>
+    <portS11u>2152</portS11u>
+    <ipaddrS13>
+      <item0>192.168.139.10</item0>
+    </ipaddrS13>
+    <ipaddrv6S13/>
+    <netmaskS13>
+      <item0>24</item0>
+    </netmaskS13>
+    <netmaskv6S13/>
+    <intfS13>
+      <item0>ens33</item0>
+    </intfS13>
+    <portS13>3868</portS13>
+    <ipaddrSBc>192.168.139.10</ipaddrSBc>
+    <ipaddrv6SBc/>
+    <netmaskSBc>24</netmaskSBc>
+    <netmaskv6SBc>64</netmaskv6SBc>
+    <intfSBc>ens33</intfSBc>
+    <ipaddrSGs>192.168.139.10</ipaddrSGs>
+    <ipaddrv6SGs/>
+    <netmaskSGs>24</netmaskSGs>
+    <netmaskv6SGs>64</netmaskv6SGs>
+    <intfSGs>ens33</intfSGs>
+    <portSGs>29118</portSGs>
+    <ipaddrSLs>192.168.139.10</ipaddrSLs>
+    <ipaddrv6SLs/>
+    <netmaskSLs>24</netmaskSLs>
+    <netmaskv6SLs>64</netmaskv6SLs>
+    <intfSLs>ens33</intfSLs>
+    <portSLs>9082</portSLs>
+    <ipaddrSv>192.168.139.10</ipaddrSv>
+    <ipaddrv6Sv/>
+    <netmaskSv>24</netmaskSv>
+    <netmaskv6Sv>64</netmaskv6Sv>
+    <intfSv>ens33</intfSv>
+    <portSv>2123</portSv>
+    <ipaddrS102>192.168.139.10</ipaddrS102>
+    <ipaddrv6S102/>
+    <netmaskS102>24</netmaskS102>
+    <netmaskv6S102>64</netmaskv6S102>
+    <intfS102>ens33</intfS102>
+    <portS102>23272</portS102>
+    <ipaddrM3>192.168.139.10</ipaddrM3>
+    <ipaddrv6M3/>
+    <netmaskM3>24</netmaskM3>
+    <netmaskv6M3>64</netmaskv6M3>
+    <intfM3>ens33</intfM3>
+    <portM3>36444</portM3>
+    <ipaddrSm>192.168.139.10</ipaddrSm>
+    <ipaddrv6Sm/>
+    <netmaskSm>24</netmaskSm>
+    <netmaskv6Sm>64</netmaskv6Sm>
+    <intfSm>ens33</intfSm>
+    <portSm>2123</portSm>
+    <diaHost>mme.localhost.localdomain</diaHost>
+    <diaRealm>epc.mnc001.mcc001.3gppnetwork.org</diaRealm>
+    <diaProductName>NetEPC MME</diaProductName>
+    <serviceRestoration>1</serviceRestoration>
+    <nodeIdType>0</nodeIdType>
+    <nodeIdValue>192.168.139.10</nodeIdValue>
+    <partialPathFailure>1</partialPathFailure>
+    <pgwRestart>1</pgwRestart>
+    <modifyAccessBearer>1</modifyAccessBearer>
+    <diaProxyPA2>0</diaProxyPA2>
+    <imsSupportIndication>0</imsSupportIndication>
+    <ueRadioCapMatch>0</ueRadioCapMatch>
+    <preferIPv4Address>1</preferIPv4Address>
+  </node>
+  <isColocated>0</isColocated>
+  <physicalLBIntfAlpha/>
+  <physicalLBIntfBeta/>
+  <flagChangeBasicConfig>0</flagChangeBasicConfig>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>QbMmqxXcW0tLQZZFOvR9XsR9eyQ=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>rSBkauPx/JniJL9hub9uE33y4T4d10vxqdB0mybBDtyAaMf7zZLzFr7fDv8T3BfX
+WJcMSDcPRGJihgm0JK5u9BPmz0giC8xpKdD/kLNQ6Zvbeqhzh0mcAKOgv2rpT2dt
+Yh3+wtn00VgxS9IHrNw6kSu+Pf2egOULViySZVve1cf7Koi+j+oAXJlZmOiI9I2p
+XVSvv7wRUL5iYBma2l7HSymrsEnQXLiFCm8Pda3JxRQUpQVNDC3P8kNaICjfbMtT
+1WQhnRMbjFiMLb6108VSSNkdq2kNum0VVsjgkW7D/KcSnd5pGW2hB4OTiHL6J+JF
+vmvSj2/4MUY4scBIk5Eklg==</SignatureValue>
+<KeyInfo>
+<KeyName>/home/polaris/LTE_MPLMN/Bin/netepc/../..//configs/../security/privkey.pem</KeyName>
+</KeyInfo>
+</Signature></PN_TMMEC_CONFIG>

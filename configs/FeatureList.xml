@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCT_FEATURES>
+    <MME_EMULATOR>
+        <Subscriber_Capacity len="4"></Subscriber_Capacity>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+		<ENodeB_Capacity len="4"></ENodeB_Capacity>
+    </MME_EMULATOR>
+    <SGW_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </SGW_EMULATOR>
+    <PGW_EMULATOR>
+        <Subscriber_Capacity len="4"></Subscriber_Capacity>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </PGW_EMULATOR>
+    <HSS_EMULATOR>
+        <Register_Capacity len="4"></Register_Capacity>
+        <Subscriber_Capacity len="4"></Subscriber_Capacity>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </HSS_EMULATOR>
+    <PCRF_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </PCRF_EMULATOR>
+    <OCS_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </OCS_EMULATOR>
+    <OFCS_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </OFCS_EMULATOR>
+    <MBMSGW_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+    </MBMSGW_EMULATOR>
+	<ENodeB_Emulator>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+		<CIoT_Capability></CIoT_Capability>
+		<NSA_Capability></NSA_Capability>
+    </ENodeB_Emulator>
+    <ANDSF_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </ANDSF_EMULATOR>
+    <UES14_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </UES14_EMULATOR>
+    <ePDG_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+    </ePDG_EMULATOR>
+ 
+    <DIA_EMULATOR>
+        <Session_Capacity len="8"></Session_Capacity>
+        <Gx_Interface></Gx_Interface>
+        <Rx_Interface></Rx_Interface>
+        <S9_Interface></S9_Interface>
+        <S6a_Interface></S6a_Interface>
+		<Gy_Interface></Gy_Interface>
+		<Gz_Interface></Gz_Interface>
+		<Gxc_Interface></Gxc_Interface>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </DIA_EMULATOR>
+    <IPT_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </IPT_EMULATOR>
+    <FTP_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </FTP_EMULATOR>
+    <FENB_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </FENB_EMULATOR>
+    <MCC_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </MCC_EMULATOR>
+    <HGW_EMULATOR>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+        <NFV_Capability></NFV_Capability>
+    </HGW_EMULATOR>
+    <AMC_TESTER>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </AMC_TESTER>
+    <ATCA_TESTER>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </ATCA_TESTER>
+    <uTCA_TESTER>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </uTCA_TESTER>
+    <HPI_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </HPI_Tester>
+    <AIS_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </AIS_Tester>
+    <WiFi_11n_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </WiFi_11n_Tester>
+    <IRAT_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </IRAT_Functional_Tester>
+    <MME_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </MME_Functional_Tester>
+    <eNodeB_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </eNodeB_Functional_Tester>
+    <PGW_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </PGW_Functional_Tester>
+	<SPGW_Functional_Tester>
+        <Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </SPGW_Functional_Tester>
+    <SGW_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </SGW_Functional_Tester>
+    <EPC_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </EPC_Functional_Tester>
+    <PCRF_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </PCRF_Functional_Tester>
+    <ePDG_Functional_Tester>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </ePDG_Functional_Tester>
+    <Test_Builder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </Test_Builder>
+    <PGWTestBuilder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </PGWTestBuilder>
+    <SGWTestBuilder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </SGWTestBuilder>
+    <PCRFTestBuilder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </PCRFTestBuilder>
+    <ePDGTestBuilder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </ePDGTestBuilder>
+    <EPCTestBuilder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </EPCTestBuilder>
+    <ENodeB>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </ENodeB>
+    <UE_Emulator>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </UE_Emulator>
+    <Packet_Builder>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </Packet_Builder>
+    <MME_LoadBalancer>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+		<NFV_Capability></NFV_Capability>
+    </MME_LoadBalancer>
+    <UEController>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </UEController>
+    <MCE_Emulator>
+		<Number_of_Allowed_Connection len="4"></Number_of_Allowed_Connection>
+    </MCE_Emulator>
+</PRODUCT_FEATURES>

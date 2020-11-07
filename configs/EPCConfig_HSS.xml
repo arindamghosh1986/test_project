@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PN_THSSC_CONFIG>
+  <log>
+    <level>information</level>
+    <repetition>0</repetition>
+    <compression>0</compression>
+    <rotation>0</rotation>
+    <messageCount>0</messageCount>
+    <compressedFileCount>50</compressedFileCount>
+    <maxFileSize>10</maxFileSize>
+    <enableLocalLogging>1</enableLocalLogging>
+    <enableRemoteLogging>0</enableRemoteLogging>
+    <remoteLogServerIP/>
+    <remoteLogServerPort>514</remoteLogServerPort>
+  </log>
+  <plmn>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+  </plmn>
+  <spr>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+    <ipAddress>192.168.139.130</ipAddress>
+    <port>49494</port>
+  </spr>
+  <node>
+    <plmn>TestNetwork</plmn>
+    <ipaddrS6a>
+      <item0>192.168.139.40</item0>
+    </ipaddrS6a>
+    <diaHost>hss.localhost.localdomain</diaHost>
+    <diaRealm>epc.mnc001.mcc001.3gppnetwork.org</diaRealm>
+    <diaProductName>NetEPC HSS</diaProductName>
+    <ipaddrv6S6a/>
+    <netmaskS6a>
+      <item0>24</item0>
+    </netmaskS6a>
+    <netmaskv6S6a/>
+    <intfS6a>
+      <item0>ens33</item0>
+    </intfS6a>
+    <hssS6aNodeType>1</hssS6aNodeType>
+    <portS6a>3868</portS6a>
+    <ipaddrZh>
+      <item0>192.168.139.40</item0>
+    </ipaddrZh>
+    <ipaddrv6Zh/>
+    <netmaskZh>
+      <item0>24</item0>
+    </netmaskZh>
+    <netmaskv6Zh/>
+    <intfZh>
+      <item0>ens33</item0>
+    </intfZh>
+    <hssZhNodeType>1</hssZhNodeType>
+    <portZh>3868</portZh>
+    <ipaddrCx>
+      <item0>192.168.139.40</item0>
+    </ipaddrCx>
+    <ipaddrv6Cx/>
+    <netmaskCx>
+      <item0>24</item0>
+    </netmaskCx>
+    <netmaskv6Cx/>
+    <intfCx>
+      <item0>ens33</item0>
+    </intfCx>
+    <hssCxNodeType>1</hssCxNodeType>
+    <portCx>3868</portCx>
+    <ipaddrS6b>
+      <item0>192.168.139.40</item0>
+    </ipaddrS6b>
+    <ipaddrv6S6b/>
+    <netmaskS6b>
+      <item0>24</item0>
+    </netmaskS6b>
+    <netmaskv6S6b/>
+    <intfS6b>
+      <item0>ens33</item0>
+    </intfS6b>
+    <hssS6bNodeType>1</hssS6bNodeType>
+    <portS6b>3868</portS6b>
+    <ipaddrSTa>
+      <item0>192.168.139.40</item0>
+    </ipaddrSTa>
+    <ipaddrv6STa/>
+    <netmaskSTa>
+      <item0>24</item0>
+    </netmaskSTa>
+    <netmaskv6STa/>
+    <intfSTa>
+      <item0>ens33</item0>
+    </intfSTa>
+    <hssSTaNodeType>1</hssSTaNodeType>
+    <portSTa>3868</portSTa>
+    <ipaddrSWd>
+      <item0>192.168.139.40</item0>
+    </ipaddrSWd>
+    <ipaddrv6SWd/>
+    <netmaskSWd>
+      <item0>24</item0>
+    </netmaskSWd>
+    <netmaskv6SWd/>
+    <intfSWd>
+      <item0>ens33</item0>
+    </intfSWd>
+    <hssSWdNodeType>1</hssSWdNodeType>
+    <portSWd>3868</portSWd>
+    <ipaddrSWm>
+      <item0>192.168.139.40</item0>
+    </ipaddrSWm>
+    <ipaddrv6SWm/>
+    <netmaskSWm>
+      <item0>24</item0>
+    </netmaskSWm>
+    <netmaskv6SWm/>
+    <intfSWm>
+      <item0>ens33</item0>
+    </intfSWm>
+    <portSWm>3868</portSWm>
+    <ipaddrSLh>
+      <item0>192.168.139.40</item0>
+    </ipaddrSLh>
+    <ipaddrv6SLh/>
+    <netmaskSLh>
+      <item0>24</item0>
+    </netmaskSLh>
+    <netmaskv6SLh/>
+    <intfSLh>
+      <item0>ens33</item0>
+    </intfSLh>
+    <hssSLhNodeType>1</hssSLhNodeType>
+    <portSLh>3868</portSLh>
+    <ipaddrSh>
+      <item0>192.168.139.40</item0>
+    </ipaddrSh>
+    <ipaddrv6Sh/>
+    <netmaskSh>
+      <item0>24</item0>
+    </netmaskSh>
+    <netmaskv6Sh/>
+    <intfSh>
+      <item0>ens33</item0>
+    </intfSh>
+    <hssShNodeType>1</hssShNodeType>
+    <portSh>3868</portSh>
+  </node>
+  <isColocated>0</isColocated>
+  <physicalLBIntfAlpha/>
+  <physicalLBIntfBeta/>
+  <flagChangeBasicConfig>0</flagChangeBasicConfig>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>toML5n/Btzd/VBD/gOVXfapwC/4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>VNUUtCkeU6AInclLEhjfrlal1S4/z6rqyMLKEXCYc7pPlPovTHMfkpfgFC0KCCiP
+uyqkoBvb3ciPQN81uqV5V/N8A3IfCeNiinrWZz3PBpLGeK7kOs0brM/pBFW4t8rf
+5qO2Wx6yoHyEPFqcxezXISgDZSxwhaucFAHEHawOO2FYCrha+2y2GfszRfhBMQ0u
+0Me81brJjm5LbL6rwrvUPtrmJpQhkoGk7hGQqS1ldKdBoomGsUx/E+ZMBqv4JY9x
+7UFYVPSeARCdIyuc3JS8Ph9wAIcZorSQ6LfQyLTiOKHtzFAWSmb+pL+7TbA1ZfYB
+JqyTMEJOlT8Cg6qQPlkAdw==</SignatureValue>
+<KeyInfo>
+<KeyName>/home/polaris/LTE_MPLMN/Bin/netepc/../..//configs/../security/privkey.pem</KeyName>
+</KeyInfo>
+</Signature></PN_THSSC_CONFIG>

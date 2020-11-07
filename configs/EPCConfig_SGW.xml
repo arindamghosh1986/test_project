@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PN_TSGWC_CONFIG>
+  <log>
+    <level>information</level>
+    <repetition>0</repetition>
+    <compression>0</compression>
+    <rotation>0</rotation>
+    <messageCount>0</messageCount>
+    <compressedFileCount>50</compressedFileCount>
+    <maxFileSize>10</maxFileSize>
+    <enableLocalLogging>1</enableLocalLogging>
+    <enableRemoteLogging>0</enableRemoteLogging>
+    <remoteLogServerIP/>
+    <remoteLogServerPort>514</remoteLogServerPort>
+  </log>
+  <plmn>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+  </plmn>
+  <node>
+    <plmn>TestNetwork</plmn>
+    <ipaddrS11S4c>192.168.139.20</ipaddrS11S4c>
+    <ipaddrGxc>
+      <item0>192.168.139.20</item0>
+    </ipaddrGxc>
+    <netmaskGxc>
+      <item0>24</item0>
+    </netmaskGxc>
+    <ipaddrv6Gxc/>
+    <netmaskv6Gxc/>
+    <intfGxc>
+      <item0>ens33</item0>
+    </intfGxc>
+    <netmaskS11S4c>24</netmaskS11S4c>
+    <intfS11S4c>ens33</intfS11S4c>
+    <ipaddrS1S4S12u>192.168.139.20</ipaddrS1S4S12u>
+    <ipaddrv6S1S4S12u/>
+    <netmaskS1S4S12u>24</netmaskS1S4S12u>
+    <netmaskv6S1S4S12u>64</netmaskv6S1S4S12u>
+    <intfS1S4S12u>ens33</intfS1S4S12u>
+    <speedS1S4S12u>100</speedS1S4S12u>
+    <ipaddrS11u>192.168.139.20</ipaddrS11u>
+    <ipaddrv6S11u/>
+    <netmaskS11u>24</netmaskS11u>
+    <netmaskv6S11u>64</netmaskv6S11u>
+    <intfS11u>ens33</intfS11u>
+    <speedS11u>100</speedS11u>
+    <ipaddrS5S8c>192.168.139.20</ipaddrS5S8c>
+    <netmaskS5S8c>24</netmaskS5S8c>
+    <intfS5S8c>ens33</intfS5S8c>
+    <ipaddrS5S8u>192.168.139.20</ipaddrS5S8u>
+    <netmaskS5S8u>24</netmaskS5S8u>
+    <intfS5S8u>ens33</intfS5S8u>
+    <speedS5S8u>100</speedS5S8u>
+    <portGxc>3868</portGxc>
+    <portS1S4S12u>2152</portS1S4S12u>
+    <portS11u>2152</portS11u>
+    <portS5S8u>2152</portS5S8u>
+    <portS11S4c>2123</portS11S4c>
+    <portS5S8c>2123</portS5S8c>
+    <diaHost>sgw.localhost.localdomain</diaHost>
+    <diaRealm>epc.mnc001.mcc001.3gppnetwork.org</diaRealm>
+    <diaProductName>NetEPC SGW</diaProductName>
+    <partialPathFailure>1</partialPathFailure>
+    <pgwRestart>1</pgwRestart>
+    <modifyAccessBearer>1</modifyAccessBearer>
+    <diaProxyPA2>0</diaProxyPA2>
+    <serviceRestoration>1</serviceRestoration>
+    <nodeIdType>0</nodeIdType>
+    <nodeIdValue>192.168.139.20</nodeIdValue>
+    <ipaddrv6S11S4c/>
+    <netmaskv6S11S4c>64</netmaskv6S11S4c>
+    <ipaddrv6S5S8c/>
+    <netmaskv6S5S8c>64</netmaskv6S5S8c>
+    <ipaddrv6S5S8u/>
+    <netmaskv6S5S8u>64</netmaskv6S5S8u>
+    <preferIPv4Address>1</preferIPv4Address>
+    <publicIPAddrv4S1u/>
+  </node>
+  <isColocated>0</isColocated>
+  <physicalLBIntfAlpha/>
+  <physicalLBIntfBeta/>
+  <flagChangeBasicConfig>0</flagChangeBasicConfig>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>NpkFJ0IEBGkoyYnBK6IuIGmxpq4=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>G5DZxgjqYdsm0JnzkX8Fl7AfIcurERTsovMQVh1NIB32L36NO5FEy1HJnqel4mN8
+a8pqI3+CgfmLjCa7JZBWFLOY8P3dB+y7vdNz9l20jpbJbVrpmE5nV9tx6G980/96
+p9Hb6ObQfJV+HVnDJGXQMU9C47qeCs8ER7wkdrP7kH5ci5OWLg/HtKsmnCVrs86q
+nXxuzBLBvFwBDEaszyMi66TOZ4vSViBMlXwMnXCm5TBhg9pVy54u5RJajJjuPAaq
+BYfcoxoDM6if173ONDeheNmDgHzA1Uo+/eeaXsM7l3jaXxprbnxU2MPy4E5VVIS+
+k+9no26gOWLxI8Brby/WYQ==</SignatureValue>
+<KeyInfo>
+<KeyName>/home/polaris/LTE_MPLMN/Bin/netepc/../..//configs/../security/privkey.pem</KeyName>
+</KeyInfo>
+</Signature></PN_TSGWC_CONFIG>

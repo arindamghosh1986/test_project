@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PN_TPGWC_CONFIG>
+  <log>
+    <level>information</level>
+    <repetition>0</repetition>
+    <compression>0</compression>
+    <rotation>0</rotation>
+    <messageCount>0</messageCount>
+    <compressedFileCount>50</compressedFileCount>
+    <maxFileSize>10</maxFileSize>
+    <enableLocalLogging>1</enableLocalLogging>
+    <enableRemoteLogging>0</enableRemoteLogging>
+    <remoteLogServerIP/>
+    <remoteLogServerPort>514</remoteLogServerPort>
+  </log>
+  <plmn>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+  </plmn>
+  <node>
+    <plmn>TestNetwork</plmn>
+    <ipaddrS5c>192.168.139.30</ipaddrS5c>
+    <ipaddrv6S5c/>
+    <netmaskv6S5c>64</netmaskv6S5c>
+    <netmaskS5c>24</netmaskS5c>
+    <intfS5c>ens33</intfS5c>
+    <ueIPMask/>
+    <ipaddrS8c>192.168.139.30</ipaddrS8c>
+    <ipaddrv6S8c/>
+    <netmaskS8c>24</netmaskS8c>
+    <netmaskv6S8c>64</netmaskv6S8c>
+    <intfS8c>ens33</intfS8c>
+    <ipaddrS2Bc>192.168.139.30</ipaddrS2Bc>
+    <ipaddrv6S2Bc/>
+    <netmaskS2Bc>24</netmaskS2Bc>
+    <netmaskv6S2Bc>64</netmaskv6S2Bc>
+    <intfS2Bc>ens33</intfS2Bc>
+    <ipaddrS2Ac>192.168.139.30</ipaddrS2Ac>
+    <ipaddrv6S2Ac/>
+    <netmaskS2Ac>24</netmaskS2Ac>
+    <netmaskv6S2Ac>64</netmaskv6S2Ac>
+    <intfS2Ac>ens33</intfS2Ac>
+    <ipaddrS5u>192.168.139.30</ipaddrS5u>
+    <ipaddrv6S5u/>
+    <netmaskS5u>24</netmaskS5u>
+    <netmaskv6S5u>64</netmaskv6S5u>
+    <intfS5u>ens33</intfS5u>
+    <S5uSpeed>100</S5uSpeed>
+    <ipaddrS8u>192.168.139.30</ipaddrS8u>
+    <ipaddrv6S8u/>
+    <netmaskS8u>24</netmaskS8u>
+    <netmaskv6S8u>64</netmaskv6S8u>
+    <intfS8u>ens33</intfS8u>
+    <S8uSpeed>100</S8uSpeed>
+    <ipaddrS2Bu>192.168.139.30</ipaddrS2Bu>
+    <ipaddrv6S2Bu/>
+    <netmaskS2Bu>24</netmaskS2Bu>
+    <netmaskv6S2Bu>64</netmaskv6S2Bu>
+    <intfS2Bu>ens33</intfS2Bu>
+    <S2BuSpeed>100</S2BuSpeed>
+    <ipaddrS2Au>192.168.139.30</ipaddrS2Au>
+    <ipaddrv6S2Au/>
+    <netmaskS2Au>24</netmaskS2Au>
+    <netmaskv6S2Au>64</netmaskv6S2Au>
+    <intfS2Au>ens33</intfS2Au>
+    <S2AuSpeed>100</S2AuSpeed>
+    <portS5u>2152</portS5u>
+    <portS5c>2123</portS5c>
+    <portS8u>2152</portS8u>
+    <portS8c>2123</portS8c>
+    <portS2Bu>2152</portS2Bu>
+    <portS2Bc>2123</portS2Bc>
+    <portS2Au>2152</portS2Au>
+    <portS2Ac>2123</portS2Ac>
+    <ipaddrSGi/>
+    <ipaddrSgi>192.168.139.30</ipaddrSgi>
+    <ipaddrv6SGi/>
+    <ipaddrv6Sgi>fe80::1f3a:a70b:36b7:7d09</ipaddrv6Sgi>
+    <netmaskSGi>16</netmaskSGi>
+    <IPv4SgiMask>24</IPv4SgiMask>
+    <netmaskv6SGi>64</netmaskv6SGi>
+    <IPv6SgiMask>64</IPv6SgiMask>
+    <intfSGi/>
+    <intfSgi>ens33</intfSgi>
+    <dhcpClientPort>68</dhcpClientPort>
+    <dhcpClientPortIPv6>546</dhcpClientPortIPv6>
+    <ipaddrGx>
+      <item0>192.168.139.30</item0>
+    </ipaddrGx>
+    <ipaddrv6Gx/>
+    <netmaskGx>
+      <item0>24</item0>
+    </netmaskGx>
+    <netmaskv6Gx/>
+    <intfGx>
+      <item0>ens33</item0>
+    </intfGx>
+    <ipaddrGy>
+      <item0>192.168.139.30</item0>
+    </ipaddrGy>
+    <ipaddrv6Gy/>
+    <netmaskGy>
+      <item0>24</item0>
+    </netmaskGy>
+    <netmaskv6Gy/>
+    <intfGy>
+      <item0>ens33</item0>
+    </intfGy>
+    <ipaddrGz>
+      <item0>192.168.139.30</item0>
+    </ipaddrGz>
+    <ipaddrv6Gz/>
+    <netmaskGz>
+      <item0>24</item0>
+    </netmaskGz>
+    <netmaskv6Gz/>
+    <intfGz>
+      <item0>ens33</item0>
+    </intfGz>
+    <ipaddrS6b>
+      <item0>192.168.139.30</item0>
+    </ipaddrS6b>
+    <ipaddrv6S6b/>
+    <netmaskS6b>
+      <item0>24</item0>
+    </netmaskS6b>
+    <netmaskv6S6b/>
+    <intfS6b>
+      <item0>ens33</item0>
+    </intfS6b>
+    <portGx>3868</portGx>
+    <portGy>3868</portGy>
+    <portGz>3868</portGz>
+    <portS6b>3868</portS6b>
+    <portSGiDia>3868</portSGiDia>
+    <diaHost>pgw.localhost.localdomain</diaHost>
+    <diaRealm>epc.mnc001.mcc001.3gppnetwork.org</diaRealm>
+    <diaProductName>NetEPC PGW</diaProductName>
+    <partialPathFailure>1</partialPathFailure>
+    <diaProxyPA2>0</diaProxyPA2>
+    <nodeIdType>0</nodeIdType>
+    <nodeIdValue>192.168.139.30</nodeIdValue>
+  </node>
+  <enableNatOnSgi>false</enableNatOnSgi>
+  <flagEnableNATOnUE>0</flagEnableNATOnUE>
+  <ipaddrListUEsForNAT/>
+  <ipaddrListPCSCF/>
+  <isColocated>0</isColocated>
+  <physicalLBIntfAlpha/>
+  <physicalLBIntfBeta/>
+  <flagChangeBasicConfig>0</flagChangeBasicConfig>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>fzF5z39Ekvlyykt2UNMJsQMi9g0=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>eJYqgQJ8mPrHUSSOVRcGlIFXysw6QyaJSftTp0SyAcNxJ7rUMg3+Bt6h3sPbzx14
+ZXtiULVsZueoYpeZY7EUW4H9lFTZAwxpThGjnexyw52D50sA94hjuK/sezT3eSXv
+l+mwN3obtYdg3l3n3Tyby2gENo3Oa34cqXJZbqgK3Ghkj1WSfzY/cLzuJBJr5Dce
+pLcg3yNvTEwxFbXa48Mto8kSIRIxw5fDdozT3LjkBDkGs+uqnggZSur8JgZFUsqU
+uaBBXPPhjAI1TCN1aY5h8X7GXHoZY3JRRpE9DfTQRYSMwoQi9aOUfEkHPPnlivDH
+91fUzh14KXui8lzPr8v8Fg==</SignatureValue>
+<KeyInfo>
+<KeyName>/home/polaris/LTE_MPLMN/Bin/netepc/../..//configs/../security/privkey.pem</KeyName>
+</KeyInfo>
+</Signature></PN_TPGWC_CONFIG>

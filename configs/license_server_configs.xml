@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LICENSE_SERVER_CONFIGURATION>
+  <port>7319</port>
+  <SupportClientBasedIPLicensing>no</SupportClientBasedIPLicensing>
+  <RemoteServerIPAddress>122.160.122.51</RemoteServerIPAddress>
+</LICENSE_SERVER_CONFIGURATION>

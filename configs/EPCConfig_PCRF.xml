@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PN_TPCRFC_CONFIG>
+  <log>
+    <level>information</level>
+    <repetition>0</repetition>
+    <compression>0</compression>
+    <rotation>0</rotation>
+    <messageCount>0</messageCount>
+    <compressedFileCount>50</compressedFileCount>
+    <maxFileSize>10</maxFileSize>
+    <enableLocalLogging>1</enableLocalLogging>
+    <enableRemoteLogging>0</enableRemoteLogging>
+    <remoteLogServerIP/>
+    <remoteLogServerPort>514</remoteLogServerPort>
+  </log>
+  <plmn>
+    <plmn>TestNetwork</plmn>
+    <mcc>001</mcc>
+    <mnc>01</mnc>
+  </plmn>
+  <node>
+    <plmn>TestNetwork</plmn>
+    <ipaddrGx>
+      <item0>192.168.139.50</item0>
+    </ipaddrGx>
+    <diaHost>pcrf.localhost.localdomain</diaHost>
+    <diaRealm>epc.mnc001.mcc001.3gppnetwork.org</diaRealm>
+    <diaProductName>NetEPC PCRF</diaProductName>
+    <ipaddrv6Gx/>
+    <netmaskGx>
+      <item0>24</item0>
+    </netmaskGx>
+    <netmaskv6Gx/>
+    <intfGx>
+      <item0>ens33</item0>
+    </intfGx>
+    <ipaddrRx>
+      <item0>192.168.139.50</item0>
+    </ipaddrRx>
+    <ipaddrv6Rx/>
+    <netmaskRx>
+      <item0>24</item0>
+    </netmaskRx>
+    <netmaskv6Rx/>
+    <intfRx>
+      <item0>ens33</item0>
+    </intfRx>
+    <ipaddrS9>
+      <item0>192.168.139.50</item0>
+    </ipaddrS9>
+    <ipaddrv6S9/>
+    <netmaskS9>
+      <item0>24</item0>
+    </netmaskS9>
+    <netmaskv6S9/>
+    <intfS9>
+      <item0>ens33</item0>
+    </intfS9>
+    <ipaddrGxx>
+      <item0>192.168.139.50</item0>
+    </ipaddrGxx>
+    <ipaddrv6Gxx/>
+    <netmaskGxx>
+      <item0>24</item0>
+    </netmaskGxx>
+    <netmaskv6Gxx/>
+    <intfGxx>
+      <item0>ens33</item0>
+    </intfGxx>
+    <portGx>3868</portGx>
+    <portRx>3868</portRx>
+    <portS9>3868</portS9>
+    <portGxx>3868</portGxx>
+    <sprIP>192.168.139.130</sprIP>
+    <sprPort>49494</sprPort>
+    <diaProxyPA2>0</diaProxyPA2>
+  </node>
+  <isColocated>0</isColocated>
+  <physicalLBIntfAlpha/>
+  <physicalLBIntfBeta/>
+  <flagChangeBasicConfig>0</flagChangeBasicConfig>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference>
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>bvhWOY67LNe+YDfY34EbpkQpNtk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>SQJgDxk1/FIIi1+3g1tOn4pfA9JqMkX72CKBY8sUaUOEH9QpIBchEM6JAEnSnOKM
+mLy4Yw/xLVG/xBUMzcvqvTBAyKsvVmM6wm0fL2gcy9IUo6ozZJIYs1DBRWyPXg+H
+oyFiX0rcpws2NCImc63t5cbrvxr+J4C5YNVAWeHxvROy14V30ft3pCRPhvc90IlK
+q8/ut09lBZXI5t13xhuUyojSVaExw+i9E7XtWSC8ecevxnq5cwIVofbHfZAn331G
+qeDFK/Zo2Z+P4XbS48sevsOJXuxNhLK7OJiRuz8ldbZY+GZvE1OwQKf6ntpCTCgn
+A5sHcx8IhbRKRQXKWQ9ikA==</SignatureValue>
+<KeyInfo>
+<KeyName>/home/polaris/LTE_MPLMN/Bin/netepc/../..//configs/../security/privkey.pem</KeyName>
+</KeyInfo>
+</Signature></PN_TPCRFC_CONFIG>
