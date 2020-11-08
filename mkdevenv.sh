@@ -776,3 +776,4 @@ sysctl -w kernel.pid_max=65535
 
 tput setaf 2; echo "4G software development environment is ready."; tput sgr0
 
+tput setaf 2; echo "4G software development environment is ready."; tput sgr0
