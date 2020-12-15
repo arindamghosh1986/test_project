@@ -1,3 +1,4 @@
+it is a sample second commit in version1
 #!/bin/bash
 # --------------------------------------------------------------
 # Create Build Environment for NetTest and NetEPC in CentOS 7.6
